@@ -52,7 +52,6 @@ def run_solution(question_num):
             except SolutionException, e:
                 print e.message
             except Exception, e:
-                print e.message
                 print "Unknown Exception occurred while running solution."
             finally:
                 signal.alarm(0) 

@@ -14,6 +14,14 @@ In each solution file you may find more than one solution, each solution will be
 each problem.
 
 
+Installation
+-------------
+
+The standard requirements.txt file is contained for python packages needing to be installed.
+However due to use of python statistical packages eg. numpy, pandas.
+To install these packages use the instructions on the page http://www.scipy.org/install.html .
+
+
 Timer
 ------
 There is a seperate timer for each function and if one minute of execution time is exceeded,
